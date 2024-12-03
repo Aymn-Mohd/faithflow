@@ -43,4 +43,4 @@ FaithFlow is an Islamic Pomodoro Timer that combines productivity with spiritual
 1. Clone the repository:
 
 ```bash
-git clone https://
+git clone https://github.com/Aymn-Mohd/faithflow
