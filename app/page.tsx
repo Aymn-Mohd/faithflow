@@ -104,17 +104,27 @@ export default function Home() {
                     <p className="text-xs text-gray-400">
                       Built with faith and focus in mind • Open source and free to use
                     </p>
-                    <p className="text-xs text-gray-400">
-                      Made with 🧡 by{' '}
+                    <div className="flex items-center justify-center gap-3 text-xs text-gray-400">
+                      <p>Made with 🧡 by{' '}
+                        <a
+                          href="https://twitter.com/aymnmohdd"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-gray-700 underline underline-offset-2"
+                        >
+                          @aymnmohdd
+                        </a>
+                      </p>
+                      <span>•</span>
                       <a
-                        href="https://twitter.com/aymnmohdd"
+                        href="https://buymeacoffee.com/aymnmohd"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-gray-700 underline underline-offset-2"
                       >
-                        @aymnmohdd
+                        Support the project
                       </a>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </CardContent>
