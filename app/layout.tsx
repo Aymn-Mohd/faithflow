@@ -43,8 +43,10 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} antialiased`}>
         <SessionProvider>
-          {children}
           <WaitlistBanner />
+          <main>
+            {children}
+          </main>
         </SessionProvider>
         <Analytics />
       </body>
